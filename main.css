@@ -1,0 +1,54 @@
+.wrapper{
+    max-width: 400px;
+    margin:auto;
+}
+
+.result{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.buttons{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+button{
+    flex: 25%;
+    font-size: 3em;
+    padding:15px;
+}
+.btn-clear{
+    flex: 50%
+
+}
+.btn-zero{
+    flex:75%;
+}
+.btn-number{
+    background-color: lightgray;
+}
+.btn-op{
+    background-color:#df974c;
+    color: white;
+}
+.btn-clear{
+    background-color: lightgray;
+}
+.btn-zero{
+    background-color: lightgray;
+}
+
+.btn-equals{
+    background-color:#df974c;
+    color: white;
+}
+.btn-op-arrow{
+    background-color:lightgray;
+}
